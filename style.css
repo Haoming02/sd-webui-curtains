@@ -1,4 +1,4 @@
-#txt2img_results .txt2img_curtains {
+#txt2img_gallery .txt2img_curtains {
     position: absolute;
     top: 0%;
     left: 0%;
@@ -6,20 +6,20 @@
     height: 100%;
     z-index: 500;
     pointer-events: none;
-    transition: 0.05s ease-out;
-    background: repeating-linear-gradient(90deg, var(--background-fill-primary), var(--background-fill-secondary) 10%);
+    transition: 0.075s ease-out;
+    background: repeating-linear-gradient(90deg, var(--background-fill-primary), var(--background-fill-secondary) 8%);
 }
 
 #txt2img_results .progressDiv {
     z-index: 1000;
 }
 
-#txt2img_results:hover .txt2img_curtains {
+#txt2img_gallery:hover .txt2img_curtains {
     width: 0%;
     left: 100%;
 }
 
-#img2img_results .img2img_curtains {
+#img2img_gallery .img2img_curtains {
     position: absolute;
     top: 0%;
     left: 0%;
@@ -27,15 +27,15 @@
     height: 100%;
     z-index: 500;
     pointer-events: none;
-    transition: 0.05s ease-out;
-    background: repeating-linear-gradient(90deg, var(--background-fill-primary), var(--background-fill-secondary) 10%);
+    transition: 0.075s ease-out;
+    background: repeating-linear-gradient(90deg, var(--background-fill-primary), var(--background-fill-secondary) 8%);
 }
 
 #img2img_results .progressDiv {
     z-index: 1000;
 }
 
-#img2img_results:hover .img2img_curtains {
+#img2img_gallery:hover .img2img_curtains {
     width: 0%;
     left: 100%;
 }
