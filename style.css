@@ -2,6 +2,10 @@
     overflow: visible !important;
 }
 
+#txt2img_gallery_container>.styler, #img2img_gallery_container>.styler {
+    overflow: visible !important;
+}
+
 #txt2img_results>.progressDiv, #img2img_results>.progressDiv {
     z-index: 690;
 }
